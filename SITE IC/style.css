@@ -1,0 +1,134 @@
+html, body {
+  display: flex;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+}
+
+.categories-title {
+  margin-top: 3rem;
+  font-size: x-large;
+}
+
+.left-menu {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 100vh;
+  background-color: #000000;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.top-left-menu {
+  font-family: 'Bungee Hairline', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+}
+
+.bottom-left-menu {
+  font-family: 'Lora', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #31071b;
+  width: 25vw;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  max-width: 70%;
+  height: auto;
+}
+
+.micro-bio{
+  text-align: justify;
+  color: #e4bd54;
+  width: 20vw;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 25vw;
+  width: 75vw;
+  height: 10vh;
+  background-color: #31071b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1rem;
+  z-index: 1;
+
+}
+.main {
+  font-family: 'Baloo Bhai 2', cursive;
+  position: relative;
+  left: 25vw;
+  color: #31071b;
+}
+
+.a {
+  font-family: 'Baloo Bhai 2', cursive;
+  transition: transform 1s;
+}
+
+.a:hover {
+  transform: scale(125%);
+}
+
+a:active {
+  color: #e4bd54;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#cin :hover{
+  color: #e4bd54;
+}
+
+.section {
+  box-sizing: border-box;
+  margin-top: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  max-width: 74vw;
+  outline: 2px solid #000000;
+}
+
+.section .section-content {
+  text-align: justify;
+  padding-top: 1rem;
+  min-height: 90vh;
+}
+li {
+  list-style: circle;
+  font-size: large;
+  padding: 2rem;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 1px;
+  width: auto;
+  max-height: 40vh;
+}
