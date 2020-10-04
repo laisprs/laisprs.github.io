@@ -111,6 +111,10 @@ a {
   color: #e4bd54;
 }
 
+#racha-cuca :hover{
+  color: #31071b;
+}
+
 .section {
   box-sizing: border-box;
   padding-top: 2rem;
